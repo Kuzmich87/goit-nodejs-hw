@@ -15,7 +15,6 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-
 app.use("/api/users", currentRouter);
 app.use("/api/users", usersRouter);
 app.use("/api/contacts", contactsRouter);

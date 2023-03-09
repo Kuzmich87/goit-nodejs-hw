@@ -20,11 +20,11 @@ const contactSchema = new Schema(
     },
     owner: {
       type: SchemaTypes.ObjectId,
-      ref: 'user',
+      ref: "users",
       required: true,
-    }
+    },
   },
   { versionKey: false, timestamps: true }
 );
 const Contact = model("contact", contactSchema);
-module.exports = Contact;
+module.exports = { Contact };

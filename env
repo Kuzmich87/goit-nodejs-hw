@@ -1,2 +1,5 @@
 DB_HOST=mongodb+srv://dkuzmich87:220372Kk@cluster0.w04l2u5.mongodb.net/?retryWrites=true&w=majority
 SECRET_KEY=d.kuzmich87
+MYAPI_SENDGRID=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
+META_PASSWORD=220372Kk
+SENDGRID_EMAIL=dkuzmich87@meta.ua
